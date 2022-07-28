@@ -1,7 +1,14 @@
-import React from "react";
+import "./App.css";
+import Display from "./Display";
+import Buttons from "./Buttons";
 
-const App = () => {
-  return <div>App</div>;
-};
+function App() {
+  return (
+    <div className="App">
+      <Display />
+      <Buttons />
+    </div>
+  );
+}
 
 export default App;
